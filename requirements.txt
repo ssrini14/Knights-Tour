@@ -1,0 +1,6 @@
+numpy
+matplotlib
+gradio
+gymnasium
+stable_baselines3
+sb3-contrib
