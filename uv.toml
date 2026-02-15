@@ -1,2 +1,0 @@
-# uv.toml
-allow-insecure-host = ["pypi.org", "files.pythonhosted.org"]
