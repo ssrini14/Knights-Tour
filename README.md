@@ -107,6 +107,12 @@ Training timesteps per board size:
 - **stable-baselines3** — RL algorithm implementations
 - **sb3-contrib** — MaskablePPO (action-masked PPO)
 
+## References
+
+1. Philip, A. (2013). A generalized pseudo-knight's tour algorithm for encryption of an image. *IEEE Potentials*, 32(6), 10–16.
+2. Philip, A. (2014). A novel pseudo-knight's tour algorithm for encryption of an image. *IEEE Potentials*, 33(1), 10–16.
+3. Squirrel, D., & Çull, P. (1996). A Warnsdorff-Rule Algorithm for Knight's Tours.
+
 ## License
 
 This project is provided as-is for educational purposes.

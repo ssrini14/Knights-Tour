@@ -1,4 +1,25 @@
-"""Train RL (MaskablePPO) models for all board sizes (3–8)."""
+"""
+This python file is used for training Maskable PPO models for all board sizes
+(3x3 through 8x8). Runs sequential training and saves models to the models/
+directory.
+####################################################################
+## Personal Project - Srinivas Sridharan
+####################################################################
+
+Author: Srinivas Sridharan
+Copyright: 2026
+Project: knight_tour
+
+License: Personal Project
+Version: 0.0.1
+
+Maintainer: Srinivas Sridharan
+
+Status: Development
+
+Other dependencies:
+    numpy, rl_knight_tour
+"""
 
 import time
 import numpy as np

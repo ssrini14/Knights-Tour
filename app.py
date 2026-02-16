@@ -1,16 +1,23 @@
 """
-Knight's Tour – Gradio Application
-===================================
-Interactive web GUI for the Knight's Tour solver.
+This python file is used for Gradio web application for the Knight's Tour
+solver. Provides an interactive GUI to select board size, starting square,
+algorithm (Warnsdorff / RL), visualise the tour, and view the visit-order matrix.
+####################################################################
+## Personal Project - Srinivas Sridharan
+####################################################################
 
-Features:
-  • Select board size (3–8) and starting square
-  • Solve with Warnsdorff's heuristic or a trained RL (DQN) agent
-  • Visualise the full tour or step through it with a slider
-  • View the Knight Tour Matrix (visit-order grid)
+Author: Srinivas Sridharan
+Copyright: 2026
+Project: knight_tour
 
-Launch:
-    python app.py
+License: Personal Project
+Version: 0.0.1
+
+Maintainer: Srinivas Sridharan
+Status: Development
+
+Other dependencies:
+    gradio, numpy, knight_tour, rl_knight_tour
 """
 
 from __future__ import annotations

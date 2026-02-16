@@ -1,12 +1,24 @@
 """
-Knight's Tour - Core Algorithms
-Converted from MATLAB (Fall 2012 Connectivity Final Project) to Python.
+This python file is used for core Knight's Tour algorithms. Includes adjacency
+matrix construction, Warnsdorff's heuristic with lookahead tie-breaking,
+tour validation utilities, and chessboard visualisation with matplotlib.
+Converted from MATLAB (Grad School Project) to Python.
+####################################################################
+## Personal Project - Srinivas Sridharan
+####################################################################
 
-Provides:
-  - Adjacency matrix construction for knight moves on an NxN board
-  - Warnsdorff's heuristic (greedy single-tour finder)
-  - Validation utilities
-  - Chessboard visualization with matplotlib
+Author: Srinivas Sridharan
+Copyright: 2026
+Project: knight_tour
+
+License: Personal Project
+Version: 0.0.1
+Maintainer: Srinivas Sridharan
+
+Status: Development
+
+Other dependencies:
+    numpy, matplotlib
 """
 
 from __future__ import annotations

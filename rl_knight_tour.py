@@ -1,19 +1,24 @@
 """
-Knight's Tour – Reinforcement Learning
-=======================================
-A Gymnasium environment with **action masking** and a *Maskable PPO* agent
-(from ``sb3-contrib``) that learns to solve the Knight's Tour.
+This python file is used for Reinforcement Learning agent for the Knight's Tour.
+Implements a Gymnasium environment with action masking and a Maskable PPO agent
+(sb3-contrib) that learns to solve the Knight's Tour. The agent is only allowed
+to pick legal knight moves at every step, eliminating wasted exploration.
+####################################################################
+## Personal Project - Srinivas Sridharan
+####################################################################
 
-Key design choice
------------------
-The agent is ONLY allowed to pick legal knight moves at every step (via an
-``action_masks()`` method).  This eliminates wasted exploration on invalid
-moves and dramatically accelerates convergence compared to vanilla DQN.
+Author: Srinivas Sridharan
+Copyright: 2026
+Project: knight_tour
 
-Components
-----------
-  - KnightTourEnv  :  Gymnasium environment with ``action_masks()``
-  - KnightTourAgent:  wrapper around MaskablePPO with train / solve / save / load
+License: Personal Project
+Version: 0.0.1
+
+Maintainer: Srinivas Sridharan
+Status: Development
+
+Other dependencies:
+    gymnasium, stable_baselines3, sb3_contrib, numpy, matplotlib
 """
 
 from __future__ import annotations
